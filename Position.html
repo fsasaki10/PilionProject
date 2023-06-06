@@ -1,0 +1,43 @@
+<html>
+<title>Pillion</title>
+<!-- les hastags représentent les endroits à compléter avec du PHP-->
+
+<style> 
+  h1 {
+      color: rgb(0, 0, 0); 
+      font-size: 200%;
+      font-family: trebuchet MS;
+    }
+    h2 {
+      color: rgb(0, 0, 0); 
+      font-size: 155%;
+      font-family: trebuchet MS;
+    }
+    .champ {
+      height:50px;
+      width:280px;
+      font-size: 1em
+  }
+  </style>
+
+<br><br><br>
+<center>
+<form action = "######.php" method = "####" >
+
+<label for="pos-select"><h1>Position du mat&eacute;riel Pillion :</h1></label>
+<select name="position" id="pos-select" required>
+    <option value="" >--Choisissez une position--</option>
+    <option value="entrepot">Dans l'entrepot</option>
+    <option value="camion">Charg&eacute; sur le camion</option>
+    <option value="chantier">Arriv&eacute; sur le chantier</option>
+    <option value="levage">Pr&ecirc;t pour levage</option>
+    <option value="maintenance">Maintenance</option>
+    <option value="monte">Mont&eacute; et Fonctionel</option>
+</select>
+<br><br>
+<input class="champ" type = "submit" value = "scan"/>
+
+</form>
+</center>
+
+    </html>
