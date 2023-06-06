@@ -1,0 +1,50 @@
+<html>
+<title>Pillion</title>
+<!-- les hastage représente les endroit a compléter avec du PHP-->
+
+<style> 
+  h1 {
+      color: rgb(0, 0, 0); 
+      font-size: 200%;
+      font-family: trebuchet MS;
+    }
+h2 {
+      color: rgb(0, 0, 0); 
+      font-size: 155%;
+      font-family: trebuchet MS;
+    }
+    .champ {
+      height:50px;
+      width:280px;
+      font-size: 1em
+  }
+  </style>
+
+<br><br><br>
+<center>
+<form action = "######.php" method = "####" >
+
+<label for="even"><h1>D&eacute;clarer un &eacute;venement de chantier :</h1></label>
+<select name="evenement" id="even" required>
+    <option value="" >--choisissez un &eacute;venement--</option>
+    <option value="entrepot">Accident : Chute</option>
+    <option value="chute">Accident : &Eacute;lectricit&eacute;</option>
+    <option value="PC">Accident : Produit chimique </option>
+    <option value="Blessure">Accident : Blessure</option>
+    <option value="Perte">Imprevu : Perte</option>
+    <option value="Vol">Imprevu : Vol</option>
+    <option value="Rebut">Imprevu : Rebut</option>
+</select>
+<br><br><br>
+<label for="file"><h2>Ajouter une photo </h2></label>
+<input type="file" name="file" id="file" />
+<br><br><br>
+<input class="champ" type = "submit" value = "scan"/>
+
+<br><br>
+<h2>Num&eacute;ro &agrave; contacter : ############ </h2>
+
+</form>
+</center>
+
+    </html>
