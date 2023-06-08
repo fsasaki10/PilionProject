@@ -6,7 +6,7 @@ if (isset($_GET['id'])) {
   // Code pour se connecter à la base de données
  $servername = "localhost";
 $username = "root";
-$password = "root";
+$password = "";
 $dbname = "PILION";
 
   // Créer une connexion

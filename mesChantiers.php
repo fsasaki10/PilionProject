@@ -5,7 +5,7 @@
   $objetpdo = new PDO(
     'mysql:host=localhost;dbname=PILION',
     'root',
-    'root'
+    ''
   );
 
   $pdoStat = $objetpdo->prepare('SELECT * FROM CHANTIER ORDER BY adresse_chantier ASC');

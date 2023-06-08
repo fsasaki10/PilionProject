@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0b588f5-28ab-4d2c-85e2-33719de7c301" name="Changes" comment="actualisation code chris" />
+    <list default="true" id="f0b588f5-28ab-4d2c-85e2-33719de7c301" name="Changes" comment="actualisation code chris">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesChantiers.php" beforeDir="false" afterPath="$PROJECT_DIR$/mesChantiers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modifierChantier.php" beforeDir="false" afterPath="$PROJECT_DIR$/modifierChantier.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +18,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2QVYLLXxwIj1BJfsOMimGuNM3s0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,6 +45,8 @@
       <workItem from="1685449956852" duration="8000" />
       <workItem from="1685737844518" duration="453000" />
       <workItem from="1686057433869" duration="786000" />
+      <workItem from="1686168098834" duration="1514000" />
+      <workItem from="1686217818499" duration="396000" />
     </task>
     <task id="LOCAL-00001" summary="actualisation code chris">
       <created>1685449517213</created>
