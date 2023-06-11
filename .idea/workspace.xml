@@ -11,8 +11,14 @@
       <change afterPath="$PROJECT_DIR$/nouveauParc.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/traitementModule.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sommaire.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sommaire.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deleteChantier.php" beforeDir="false" afterPath="$PROJECT_DIR$/deleteChantier.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicateChantier.php" beforeDir="false" afterPath="$PROJECT_DIR$/duplicateChantier.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesChantiers.php" beforeDir="false" afterPath="$PROJECT_DIR$/mesChantiers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modifierChantier.php" beforeDir="false" afterPath="$PROJECT_DIR$/modifierChantier.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/monParc.php" beforeDir="false" afterPath="$PROJECT_DIR$/monParc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/traitement.php" beforeDir="false" afterPath="$PROJECT_DIR$/traitement.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +68,7 @@
       <workItem from="1686310014100" duration="2583000" />
       <workItem from="1686328380398" duration="4171000" />
       <workItem from="1686405133488" duration="8285000" />
+      <workItem from="1686518841163" duration="457000" />
     </task>
     <task id="LOCAL-00001" summary="actualisation code chris">
       <created>1685449517213</created>
@@ -77,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686218237368</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="accès bdd">
+      <created>1686519294169</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686519294169</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
