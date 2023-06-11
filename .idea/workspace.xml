@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0b588f5-28ab-4d2c-85e2-33719de7c301" name="Changes" comment="actualisation code chris">
+    <list default="true" id="f0b588f5-28ab-4d2c-85e2-33719de7c301" name="Changes" comment="accès bdd">
+      <change afterPath="$PROJECT_DIR$/connexion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dologin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modifierParc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nouveauParc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traitementModule.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mesChantiers.php" beforeDir="false" afterPath="$PROJECT_DIR$/mesChantiers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modifierChantier.php" beforeDir="false" afterPath="$PROJECT_DIR$/modifierChantier.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monParc.php" beforeDir="false" afterPath="$PROJECT_DIR$/monParc.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +32,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\pilionproject" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -46,7 +57,11 @@
       <workItem from="1685737844518" duration="453000" />
       <workItem from="1686057433869" duration="786000" />
       <workItem from="1686168098834" duration="1514000" />
-      <workItem from="1686217818499" duration="396000" />
+      <workItem from="1686217818499" duration="1021000" />
+      <workItem from="1686297583254" duration="6008000" />
+      <workItem from="1686310014100" duration="2583000" />
+      <workItem from="1686328380398" duration="4171000" />
+      <workItem from="1686405133488" duration="8285000" />
     </task>
     <task id="LOCAL-00001" summary="actualisation code chris">
       <created>1685449517213</created>
@@ -55,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685449517213</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="accès bdd">
+      <created>1686218237368</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686218237368</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,6 +97,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="actualisation code chris" />
-    <option name="LAST_COMMIT_MESSAGE" value="actualisation code chris" />
+    <MESSAGE value="accès bdd" />
+    <option name="LAST_COMMIT_MESSAGE" value="accès bdd" />
   </component>
 </project>

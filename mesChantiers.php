@@ -1,19 +1,56 @@
-  <?php
+<?php
   // Initialiser la session
   session_start();
 
-  $objetpdo = new PDO(
-    'mysql:host=localhost;dbname=PILION',
-    'root',
-    ''
-  );
+  try {
+    // Connect to the database with mysqli
+    $host = "localhost";
+    $socket = "/srv/run/mysqld/mysqld.sock";
+    $user = "root";
+    $password = "";
+    $database = "PILION";
+    $db = new mysqli($host, $user, $password, $database, null, $socket);
 
-  $pdoStat = $objetpdo->prepare('SELECT * FROM CHANTIER ORDER BY adresse_chantier ASC');
+    // Check for any connection errors
+    if ($db->connect_error) {
+      die("Connection failed: " . $db->connect_error);
+    }
 
-  $executeIsOk = $pdoStat->execute();
+    // Prepare the SQL query with a parameter
+    $sql = "SELECT * FROM CHANTIER WHERE ID_PROPRIETAIRE=? ORDER BY adresse_chantier ASC";
+    $stmt = $db->prepare($sql);
 
-  $chantiers = $pdoStat->fetchAll();
-  ?>
+    // Check for any errors
+    if ($stmt === false) {
+      die("Error: " . $db->error);
+    }
+
+    // Bind the parameter with the user's ID_PROPRIETAIRE
+    $stmt->bind_param("s", $_SESSION['ID_PROPRIETAIRE']);
+
+    // Execute the query
+    $stmt->execute();
+
+    // Get the result
+    $result = $stmt->get_result();
+
+    // Check for any errors
+    if ($result === false) {
+      die("Error: " . $stmt->error);
+    }
+
+    // Fetch the data as objects
+    $chantiers = $result->fetch_all(MYSQLI_ASSOC);
+
+    // Free the result and close the statement
+    $result->free();
+    $stmt->close();
+  } catch (Exception $e) {
+    // Handle any exceptions
+    die("Error: " . $e->getMessage());
+  }
+?>
+
 
 
   <!DOCTYPE html>

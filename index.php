@@ -1,3 +1,14 @@
+<?php
+// Start the session
+session_start();
+
+// Check if the user is logged in
+if (!isset($_SESSION["ID_PROPRIETAIRE"])) {
+    header("Location: connexion.php");
+    exit();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
   <head>
@@ -12,7 +23,8 @@
     <div class="container">
     <i class="fas fa-user-circle profile-icon"></i>
     </div><br>
-    <div style="text-align: center; font-size: 40px; margin-bottom: 40px;">François <!-- à coder en php --> </div>
+    <!-- Display the username -->
+    <div style="text-align: center; font-size: 40px; margin-bottom: 40px;"> <?php echo $_SESSION['NOM_PROPRIETAIRE']; ?> </div>
 
     <div class="bloc2">
       <a href="mesChantiers.php">

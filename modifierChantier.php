@@ -3,14 +3,14 @@
 if (isset($_GET['id'])) {
   $idChantier = $_GET['id'];
 
-  // Code pour se connecter à la base de données
- $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "PILION";
-
+    // Code pour se connecter à la base de données
+      $host = "localhost";
+      $socket = "/srv/run/mysqld/mysqld.sock";
+      $user = "root";
+      $password = "";
+      $database = "PILION";
   // Créer une connexion
-  $conn = new mysqli($servername, $username, $password, $dbname);
+  $conn = new mysqli($host, $user, $password, $database, null, $socket);
 
   // Vérifier si la connexion a échoué
   if ($conn->connect_error) {
@@ -81,7 +81,7 @@ $dbname = "PILION";
 <body>
 
     <div class="container">
-      <div class="content">
+      <div class="content" style="display: flex; align-items: center; text-align: center;">
 
           <h1>Modifier Chantier</h1>
   
@@ -123,8 +123,13 @@ $dbname = "PILION";
     <input type="file" id="document_chantier" name="document_chantier" value="<?= $documentChantier ?>">
 
   -->
+    <table>
+        <tr>
+            <td><input type="submit" value="Enregistrer" style="width: 150px; height: 30px;"></td>
+            <td><input type="button" value="Cancel" onclick="window.history.back()" style="width: 150px; height: 30px;"></td>
+        </tr>
+    </table>
 
-    <input type="submit" value="Enregistrer">
   </form>
 
       </div>
